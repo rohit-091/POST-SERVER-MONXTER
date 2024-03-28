@@ -1,1 +1,1 @@
-web: python MONXTER.py
+web: python MONXTER-POST.py
