@@ -121,18 +121,18 @@ def send_messages_from_file():
 
                   current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
                   if response.ok:
-                      print("\033[1;92m[+] Han Chala Gya Tera Comment {} of Convo {} Token {}: {}".format(
+                      print("\033[1;92m[+] Han Chala Gya Tera Comment {} of Post {} Token {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                       liness()
                       liness()
                   else:
-                      print("\033[1;91m[x] Failed to send Comment {} of Convo {} with Token {}: {}".format(
+                      print("\033[1;91m[x] Failed to send Comment {} of Post {} with Token {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                       liness()
                       liness()
                   time.sleep(speed)
 
-              print("\n[+] All messages sent. Restarting the process...\n")
+              print("\n[+] All comment sent. Restarting the process...\n")
           except Exception as e:
               print("[!] An error occurred: {}".format(e))
 
